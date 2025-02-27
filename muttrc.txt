@@ -1,0 +1,7 @@
+set from = "your-email@gmail.com"
+set realname = "Your Name"
+set smtp_url = "smtps://your-email@gmail.com@smtp.gmail.com:465/"
+set smtp_pass = "your-app-password"
+set ssl_force_tls = yes
+set ssl_starttls = no
+set smtp_authenticators = "login"
