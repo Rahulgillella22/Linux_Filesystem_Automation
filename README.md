@@ -6,11 +6,11 @@ This project automates email notifications for universities and schools whenever
 
 ## Features  
 
-✅ **File Monitoring:** Uses `inotifywait` to detect new files.  
-✅ **Class-wise Email Routing:** Sends files to the respective class in-charge.  
-✅ **Automated Email Sending:** Uses `mutt` with Gmail SMTP for email automation.  
-✅ **File Renaming After Sending:** Prevents duplicate emails by renaming sent files.  
-✅ **Persistent Execution:** Runs continuously in the background using `nohup`.  
+ **File Monitoring:** Uses `inotifywait` to detect new files.  
+ **Class-wise Email Routing:** Sends files to the respective class in-charge.  
+ **Automated Email Sending:** Uses `mutt` with Gmail SMTP for email automation.  
+ **File Renaming After Sending:** Prevents duplicate emails by renaming sent files.  
+ **Persistent Execution:** Runs continuously in the background using `nohup`.  
 
 ---
 
@@ -48,3 +48,16 @@ This project automates email notifications for universities and schools whenever
 1️⃣ **Open the `muttrc` file for editing:**  
    ```sh
    nano ~/.muttrc
+
+2️⃣ Save and exit nano:
+
+Press CTRL + X (to exit).
+Press Y (to confirm saving).
+Press Enter (to save and exit).
+
+3️⃣Run the script 
+```sh
+nohup ./rewritesendmail.sh &
+
+
+
