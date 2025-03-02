@@ -22,6 +22,7 @@ A Gmail account with App Password enabled
 (can modify the script)
 
 # Configure the muttrc file (I added that file and replace with your own credentials) 
+
 for editing file
 ``` nano ~/.muttrc
 
