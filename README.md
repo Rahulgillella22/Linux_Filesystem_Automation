@@ -47,7 +47,7 @@ This project automates email notifications for universities and schools whenever
 
 1️⃣ **Open the `muttrc` file for editing:**  
    ```sh
-   nano ~/.muttrc
+   nano ~/.muttrc ```
 
 2️⃣ Save and exit nano:
 
@@ -57,7 +57,7 @@ Press Enter (to save and exit).
 
 3️⃣Run the script 
 ```sh
-nohup ./rewritesendmail.sh &
+nohup ./rewritesendmail.sh & ```
 
 
 
