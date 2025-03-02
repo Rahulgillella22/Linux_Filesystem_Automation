@@ -24,7 +24,8 @@ A Gmail account with App Password enabled
 # Configure the muttrc file (I added that file and replace with your own credentials) 
 
 for editing file
-``` nano ~/.muttrc
+```sh
+nano ~/.muttrc
 
 to save the changes
 Press CTRL + X (to exit).
@@ -34,5 +35,6 @@ Press Enter (to save and exit).
 
 # Run the Bash script
 
-``` nohup ./rewritesendmail.sh &
+``` sh
+nohup ./rewritesendmail.sh &
 
