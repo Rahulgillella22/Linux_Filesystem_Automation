@@ -27,7 +27,7 @@ for editing file
 ```sh
 nano ~/.muttrc
 
-to save the changes
+To save the changes
 Press CTRL + X (to exit).
 Press Y (to confirm saving).
 Press Enter (to save and exit).
