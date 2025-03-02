@@ -33,8 +33,8 @@ Press Y (to confirm saving).
 Press Enter (to save and exit).
 
 
-# Run the Bash script
+Run the Bash script
 
-``` sh
+```sh
 nohup ./rewritesendmail.sh &
 
