@@ -1,14 +1,14 @@
 # 🚀 Workflow Overview
-# 1)File Monitoring (Using inotifywait)
+1)File Monitoring (Using inotifywait)
 The script runs in the background, constantly monitoring a specific folder.
 It uses inotifywait to detect when new files are created.
-#  2)File Detection & Filtering
+2)File Detection & Filtering
 Once a file is created, the script checks if its name follows a specific pattern (e.g., class1_s_*, class2_s_*).
 Only valid files are processed.
-# 3)Email Notification (Using mutt)
+3)Email Notification (Using mutt)
 If a matching file is found, an email is sent to a predefined recipient (class in-charge) with details.
 The script uses SMTP authentication stored in .muttrc.
-# 4)Continuous Execution & Automation
+4)Continuous Execution & Automation
 The script runs continuously in the background.
 It can also be automated using nohup (for persistent execution) or cron (for scheduled execution).
 
