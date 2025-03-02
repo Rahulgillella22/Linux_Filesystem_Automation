@@ -49,7 +49,7 @@ This project automates email notifications for universities and schools whenever
    ```sh
    nano ~/.muttrc ```
 
-2️⃣ Save and exit nano:
+###   2️⃣Save and exit nano:
 
 Press CTRL + X (to exit).
 Press Y (to confirm saving).
